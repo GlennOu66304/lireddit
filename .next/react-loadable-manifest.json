@@ -1,34 +1,48 @@
 {
-  "./dev/noop": [
-    {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js"
-    }
-  ],
   "@apollo/client/react/ssr": [
     {
-      "id": "./node_modules/@apollo/client/react/ssr/RenderPromises.js",
-      "file": "static/chunks/1.js"
+      "id": "+wdc",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
     },
     {
-      "id": "./node_modules/@apollo/client/react/ssr/getDataFromTree.js",
-      "file": "static/chunks/1.js"
+      "id": "IDhZ",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
     },
     {
-      "id": "./node_modules/@apollo/client/react/ssr/index.js",
-      "file": "static/chunks/1.js"
+      "id": "JhMR",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
     },
     {
-      "id": "./node_modules/@apollo/client/react/ssr/renderToStringWithData.js",
-      "file": "static/chunks/1.js"
+      "id": "KAy6",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
     },
     {
-      "id": "./node_modules/react-dom/cjs/react-dom-server.browser.development.js",
-      "file": "static/chunks/1.js"
+      "id": "KqkS",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
     },
     {
-      "id": "./node_modules/react-dom/server.browser.js",
-      "file": "static/chunks/1.js"
+      "id": "QCnb",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
+    },
+    {
+      "id": "i8i4",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
+    },
+    {
+      "id": "q1tI",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
+    },
+    {
+      "id": "viRO",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
+    },
+    {
+      "id": "yl30",
+      "file": "static/chunks/framework.e42bb6c39d643b874e9a.js"
+    },
+    {
+      "id": "ShjV",
+      "file": "static/chunks/19.13b4d4dd08da38e67fad.js"
     }
   ]
 }

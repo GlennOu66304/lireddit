@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev  ",
-    "build": "next build --openssl-legacy-provider ",
-    "start": "next start   ",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev  ",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next start   ",
     "gen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@urql/exchange-graphcache": "^3.0.2",
+    "cross-env": "^7.0.3",
     "emotion-theming": "^10.0.27",
     "formik": "^2.1.5",
     "graphql": "^15.3.0",
